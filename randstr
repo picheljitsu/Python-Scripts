@@ -1,0 +1,15 @@
+#Generate Random String
+import random
+import string
+def generate_random():
+	y = string.ascii_uppercase + string.ascii_lowercase + string.digits
+	characterlist = list(y)
+	x = 0
+	id = []
+	while x < 8:
+		character = random.choice(characterlist)
+		id.append(character)
+		x += 1
+	final = ''.join(id)
+	print(final)
+
