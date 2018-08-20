@@ -55,10 +55,6 @@ class firefox_headless():
 			self.status = False
 			return self.status
 
-	# def start_session(self, options, firefox_path):
-	# 	self.driver = webdriver.Firefox(firefox_options=options,firefox_binary=firefox_path)
-	# 	return self.driver
-
 if __name__ == '__main__':
 
 	msg = '''
