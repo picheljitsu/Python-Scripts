@@ -9,7 +9,7 @@
 >>> options.set_headless(headless=True)
 >>> binary = FirefoxBinary('/opt/firefox/firefox')
 >>> driver = webdriver.Firefox(firefox_options=options,firefox_binary=binary)
->>> driver.get("https://www.instagram.com/accounts/login/")
+>>> driver.get("https://www.google.com")
 >>> driver.title
 '''
 
